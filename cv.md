@@ -1,7 +1,7 @@
 # Aleksei Pepeliaev
 ------------------------
 ## Contact information:
-![telephone] (/telephone.png"telephone number")  +79650823608
+![telephone] (/telephone.png "telephone number")  +79650823608
 ![telegram] (/telegram.png "telegram nickname")  @L_neer
 ![discord] (/discord.png "discord adress")  Tenshi#9425
 
@@ -14,7 +14,7 @@ At last year intresrted  in code programming. I like creat something witch make 
 My favorite frase:
 > Accidents are not accidental
 
-![Ugway] (/G:\Progtutorial\VC_1\rsschool-cv\Accidents are not accidental.jpg "Ugway")
+![Ugway] (/Accidents are not accidental.jpg "Ugway")
 
 ## About My skill:
 
