@@ -53,11 +53,11 @@ tasks from textbooks
 
 ## My Programming Courses:
 
-[Udemy](https://www.udemy.com/course/bestpython/learn/lecture/14077810?start=0) Python course
-[RSSchool](https://app.rs.school/login) JavaScript/Front - End course
+* [Udemy](https://www.udemy.com/course/bestpython/learn/lecture/14077810?start=0) Python course
+* [RSSchool](https://app.rs.school/login) JavaScript/Front - End course
 
 
-## My Language corse:
+## My Language Skills:
 
 * Japanese N4
 * English A2
