@@ -12,17 +12,16 @@
 
 ## About My Self:
 
-Gratutate technical universite in 2012. All my expirience include knowelege about machine tools and kinds of material working.
-At last year intresrted  in code programming. I like creat something witch make peaple funny.
-My favorite frase:
-> Accidents are not accidental
+I graduated from the Technical University in 2012
+All my knowledge is related to machines and metalworking methods.
+I have recently become interested in programming. With pleasure, after work, I can take the time to make code.
 
-![Ugway](img/Accidents.jpg "Ugway")
 
-## About My skill:
+## About My Skill:
 
-* Js basic
-* HTML5 CSS basic
+* JavaScript (basic)
+* HTML5 CSS (basic)
+* Python (basic)
 * VS Code
 * CNC Programming for Fanuc , Heidenhain , Siemens Sinumeric system
 
@@ -48,16 +47,18 @@ My favorite frase:
                 self.field_print()
                 self.win_chek()
 ```
-## My Programming expiriense:
+## My Programming Experience:
 
-not yet
+tasks from textbooks
 
-## My Programming corse:
+## My Programming Courses:
 
-not yet
+[Udemy](https://www.udemy.com/course/bestpython/learn/lecture/14077810?start=0) Python course
+[RSSchool](https://app.rs.school/login) JavaScript/Front - End course
+
 
 ## My Language corse:
 
-* Japan N4
-* English beginer
+* Japanese N4
+* English A2
 * Russian native
