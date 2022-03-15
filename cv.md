@@ -17,7 +17,7 @@ All my knowledge is related to machines and metalworking methods.
 I have recently become interested in programming. With pleasure, after work, I can take the time to make code.
 
 
-## About My Skill:
+## About My Skills:
 
 * JavaScript (basic)
 * HTML5 CSS (basic)
