@@ -1,11 +1,11 @@
 # Aleksei Pepeliaev
 ------------------------
 ## Contact information:
-![telephone:](/img/telephone.jpg "telephone number")  **+79650823608**    
+![telephone:](/img/phone.png "telephone number")  **+79650823608**    
 
-![telegram:](/img/telegram.jpg "telegram nickname")  **@L_neer**
+![telegram:](/img/telegram.png "telegram nickname")  **@L_neer**
 
-![discord:](/img/discord.jpg "discord adress")  **Tenshi#9425**
+![Github:](/img/github.png "Github adress")  **Lneer**
 
 
 -------------------------
