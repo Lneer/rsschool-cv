@@ -53,6 +53,10 @@
                   <td class="tab_right">Lneer</td>
                </tr>
                <tr>
+                  <td class="tab_left">Languages:</td>
+                  <td class="tab_right">Rassian (Native), English A1, Japanese N4</td>
+               </tr>
+               <tr>
                   <td class="tab_left">About:</td>
                   <td class="tab_right">I graduated from the Technical University in 2012 All my knowledge is related to machines and metalworking methods. I have recently become interested in programming. With pleasure, after work, I can take the time to make code.</td>
                </tr>
@@ -61,7 +65,7 @@
           </main>
 
         <footer>
-           Footer
+           I will get max points for this task
         </footer>
 
         <div>
@@ -88,17 +92,60 @@
 
         <div>
            <a name="Code"></a>
-           My Code:
+           <table>
+            <tr>
+               <td><img class="img_main" src="img/My_code.png" alt="Code"></td>
+               <td class="main_tab_right">My Code:  </td>
+            </tr>
+         </table>
+         <pre class="code">
+            @property
+    def turn_set(self):
+        return self._turn_set
+        
+    @turn_set.setter
+    def turn_set(self,turn_set):
+        self._turn_set=turn_set  
+        if Crossnoll.current_player=="O":
+            if type(self.field_list[self._turn_set])==int:
+                self.field_list[self._turn_set]="X"
+                Crossnoll.current_player="X"
+                self.field_print()
+                self.win_chek()
+        else:
+            if type(self.field_list[self._turn_set])==int:
+                self.field_list[self._turn_set]="O"
+                Crossnoll.current_player="O"
+                self.field_print()
+                self.win_chek()
+         </pre>
         </div>
 
          <div>
            <a name="Experience"></a>
-           My Experience
+           <table>
+            <tr>
+               <td><img class="img_main" src="img/My_experiense.png" alt="Experience"></td>
+               <td class="main_tab_right">My Experience</td>
+            </tr>
+            </table>
+            <p class="code">
+               Task from textbooks
+            </p>
         </div>
 
        <div>
            <a name="Courses"></a>
-           My Courses
+           <table>
+               <tr>
+                  <td><img class="img_main" src="img/My_courses.png" alt="Courses"></td>
+                  <td class="main_tab_right">My Courses</td>
+               </tr>
+            </table>
+            <ul style="margin-left: 20px">
+               <li class="menu"><a href="*">Udemy</a> Python course</li>
+               <li class="menu"><a href="*">RSS</a> Front End Course</li>
+            </ul>
         </div>
 
       </div>

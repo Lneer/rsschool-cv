@@ -6,20 +6,20 @@ background-color: #dadbda;
 }
 
 .grid * {
-padding: 10px 15px;
+padding: 10px 10px;
 background-color: rgb(255, 255, 255);
 text-align: center;
 font-size: 14px;
 font-family: sans-serif;
 border-radius: 5px;
-color: blue;
+color: rgb(0, 0, 0);
 }
 .grid {
     height: 100%;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 200px 200px 1fr;
-    grid-template-rows: 100px  minmax(100px,auto) repeat(5, 1fr);
+    grid-template-rows: 100px  repeat(6,minmax(50px,auto));
 }
 
 .grid > header {
@@ -65,7 +65,7 @@ color: blue;
 }
 .grid > footer {
     grid-column: 3 ;
-    grid-row: -1 ;
+    grid-row: 7 ;
 }
 
 a  { 
@@ -85,8 +85,8 @@ div {
     color: rgb(0, 0, 0);
     width: auto;
     height: auto;
-    margin-top: 5px;
-    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 5px;
     text-align: left;
     
 }
@@ -130,4 +130,8 @@ div {
     text-align: left;
     padding: 0px;
     font-weight:bold;
+}
+.code {
+    text-align: left;
+    color: black;
 }
