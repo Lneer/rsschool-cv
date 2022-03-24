@@ -117,3 +117,17 @@ div {
     padding: 0;
     background: transparent;
 }
+.img_main {
+    width: 60px;
+    text-align: left;
+    margin-top: 0px;
+    padding: 0;
+    background: transparent;
+}
+
+.main_tab_right {
+    color: rgb(81, 86, 156);
+    text-align: left;
+    padding: 0px;
+    font-weight:bold;
+}
