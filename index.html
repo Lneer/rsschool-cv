@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV2 Pepelyaev Task</title>
+</head>
+<body>
+   <div style="margin-left: 150px;  margin-right: 150px;">
+      <div class="grid">
+         <header>
+            <h1 class="name">Aleksei Pepeliaev</h1>
+         </header>
+
+         <aside>
+            <p class="menu">
+               <img class="img_menu" src="img/blue_user.png" alt="user">
+               <a class="menu" href=#main> Main </a>
+            </p>
+            <p class="menu">
+               <img class="img_menu" src="img/blue_skills.png" alt="Skills">
+               <a class="menu" href="#Skills"> Skills </a>
+            </p>
+            <p class="menu">
+               <img class="img_menu" src="img/blue_code.png" alt="code">
+               <a class="menu" href="#Code"> Code </a>
+            </p>
+            <p class="menu">
+               <img class="img_menu" src="img/blue_experients.png" alt="Experience">
+               <a class="menu" href="#Experience"> Experience </a>
+            </p>
+            <p class="menu">
+               <img class="img_menu" src="img/blue_courses.png" alt="Courses">
+               <a class="menu" href="#Courses"> Courses </a>
+            </p>
+         </aside>
+
+        <main>
+            <a name="main"></a>
+            <table>
+               <tr>
+                  <td class="tab_left">Birthday:</td>
+                  <td class="tab_right">05/29</td>
+               </tr>
+               <tr>
+                  <td class="tab_left">City:</td>
+                  <td class="tab_right">Saint-Petersburg</td>
+               </tr>
+               <tr>
+                  <td class="tab_left">Github:</td>
+                  <td class="tab_right">Lneer</td>
+               </tr>
+               <tr>
+                  <td class="tab_left">Languages:</td>
+                  <td class="tab_right">Rassian (Native), English A1, Japanese N4</td>
+               </tr>
+               <tr>
+                  <td class="tab_left">About:</td>
+                  <td class="tab_right">I graduated from the Technical University in 2012 All my knowledge is related to machines and metalworking methods. I have recently become interested in programming. With pleasure, after work, I can take the time to make code.</td>
+               </tr>
+            
+            </table>
+          </main>
+
+        <footer>
+           I will get max points for this task
+        </footer>
+
+        <div>
+           <img class="avatar" src="/img/a1_soos.png" alt="avatar">
+        </div>
+
+        <div style="text-align: left">
+            <a name="Skills"></a>
+            <table>
+               <tr>
+                  <td><img class="img_main" src="img/My_skills.png" alt="Skills"></td>
+                  <td class="main_tab_right">My Skills  </td>
+               </tr>
+            </table>
+         
+              <ul style="margin-left: 20px ; margin-top: 0%;">
+                 <li class="menu">JavaScript (basic)</li>
+                 <li class="menu">HTML5 CSS (basic)</li>
+                 <li class="menu">Python (basic)</li>
+                 <li class="menu">VS Code</li>
+                 <li class="menu">CNC Programming for Fanuc , Heidenhain , Siemens Sinumeric system</li>
+              </ul>
+        </div>
+
+        <div>
+           <a name="Code"></a>
+           <table>
+            <tr>
+               <td><img class="img_main" src="img/My_code.png" alt="Code"></td>
+               <td class="main_tab_right">My Code:  </td>
+            </tr>
+         </table>
+         <pre class="code">
+            @property
+    def turn_set(self):
+        return self._turn_set
+        
+    @turn_set.setter
+    def turn_set(self,turn_set):
+        self._turn_set=turn_set  
+        if Crossnoll.current_player=="O":
+            if type(self.field_list[self._turn_set])==int:
+                self.field_list[self._turn_set]="X"
+                Crossnoll.current_player="X"
+                self.field_print()
+                self.win_chek()
+        else:
+            if type(self.field_list[self._turn_set])==int:
+                self.field_list[self._turn_set]="O"
+                Crossnoll.current_player="O"
+                self.field_print()
+                self.win_chek()
+         </pre>
+        </div>
+
+         <div>
+           <a name="Experience"></a>
+           <table>
+            <tr>
+               <td><img class="img_main" src="img/My_experiense.png" alt="Experience"></td>
+               <td class="main_tab_right">My Experience</td>
+            </tr>
+            </table>
+            <p class="code">
+               Task from textbooks
+            </p>
+        </div>
+
+       <div>
+           <a name="Courses"></a>
+           <table>
+               <tr>
+                  <td><img class="img_main" src="img/My_courses.png" alt="Courses"></td>
+                  <td class="main_tab_right">My Courses</td>
+               </tr>
+            </table>
+            <ul style="margin-left: 20px">
+               <li class="menu"><a href="*">Udemy</a> Python course</li>
+               <li class="menu"><a href="*">RSS</a> Front End Course</li>
+            </ul>
+        </div>
+
+      </div>
+   </div>
+    
+  
+   
+</body>
+</html>
